@@ -212,16 +212,8 @@
         <module name="NonEmptyAtclauseDescription"/>
         <module name="JavadocTagContinuationIndentation"/>
         <module name="SummaryJavadoc">
-            <property name="forbiddenSummaryFragments"
-                      value="^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )"/>
+            <property name="period" value=""/>
         </module>
-        <module name="SummaryJavadocCheck">
-            <property name="forbiddenSummaryFragments"
-                      value="^This method returns.*"/>
-            <property name="period" value="" /><!-- 首行结束字符-->
-
-        </module>
-
         <module name="JavadocParagraph"/>
         <module name="AtclauseOrder">
             <property name="tagOrder" value="@param, @return, @throws, @deprecated"/>
