@@ -1,6 +1,6 @@
 # lind-checkstyle
 checkstyle文件,对google style进行修改，适合自己项目的代码检查。
-
+> https://checkstyle.org/config_javadoc.html#SummaryJavadoc
 # 修改记录
 1. 去掉了SummaryJavadoc的检查
 2. 为了和IDE对应，将缩进改为4字段
